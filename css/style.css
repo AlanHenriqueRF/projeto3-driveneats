@@ -42,7 +42,7 @@ h2 {
 .pedidos {
     height: 258px;
     width: 395px;
-    background-color: red;
+    /* background-color: red; */
     margin-left:19px;
 }
 
@@ -86,7 +86,7 @@ h2 {
     width: 548px;
     height: 216px;
     margin-top: 17px;
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     justify-content: space-between;
 }
@@ -95,4 +95,40 @@ h2 {
     width: 172px;
     height: 216px;
     background-color: #ffffff;
+    border-radius: 9px;
+}
+
+.escolha img {
+    border-radius: 4px;
+    width: 144px;
+    height: 87px;
+    margin: 18px 14px 8px 14px;
+}
+
+h3 {
+    width:139px ;
+    height: 23px;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0px 18px 4px 15px;
+    color:#333333;
+}
+
+
+h4 {
+    width:147px ;
+    height: 39px;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0px 11px 5px 14px;
+    color: #A6A6A6;
+}
+
+h5 {
+    width:66px ;
+    height: 19px;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 92px 13px 14px;
+    color: 
 }

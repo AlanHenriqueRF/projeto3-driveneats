@@ -1,6 +1,6 @@
 .menu {
     width: 414px;
-    height: 934px;
+    height: 1026px;
     background-color: #E5E5E5;
 }
 
@@ -37,4 +37,62 @@ h2 {
     font-weight: 400;
     font-size:18px ;
     margin: 0px 167px 18px 21px;
+}
+
+.pedidos {
+    height: 258px;
+    width: 395px;
+    background-color: red;
+    margin-left:19px;
+}
+
+.comida {
+    margin-top: 31px;
+}
+
+.comida h1 {
+    color: #333333;
+    font-size: 26px;
+    width: 250px;
+    height: 25px;
+    margin-left: 0px;
+}
+
+.bebida {
+    margin-top: 27px;
+}
+
+.bebida h1 {
+    color: #333333;
+    font-size: 26px;
+    width: 231px;
+    height: 25px;
+    margin-left: 0px;
+}
+
+.sobremesa {
+    margin: 27px 0px 16px 19px;
+}
+
+.sobremesa h1 {
+    color: #333333;
+    font-size: 26px;
+    width: 320px;
+    height: 25px;
+    margin-left: 0px;
+}
+
+.pedido {
+    width: 548px;
+    height: 216px;
+    margin-top: 17px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.escolha{
+    width: 172px;
+    height: 216px;
+    background-color: #ffffff;
 }

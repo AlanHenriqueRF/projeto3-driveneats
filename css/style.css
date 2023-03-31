@@ -1,3 +1,40 @@
-body {
+.menu {
+    width: 414px;
+    height: 934px;
+    background-color: #E5E5E5;
+}
+
+.cabecalho {
+    width: 414px;
+    height: 92px;
     background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.righeteous {
+    font-family: 'Righteous', cursive;
+}
+
+h1 {
+    width: 248px;
+    height: 44px;
+    color: #ffffff;
+    font-weight: 400;
+    margin: 8px 145px 5px 21px; 
+    font-size: 44px;
+}
+
+h2 {
+    width: 226px;
+    height: 17px;
+    color:#ffffff;
+    font-weight: 400;
+    font-size:18px ;
+    margin: 0px 167px 18px 21px;
 }

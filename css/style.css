@@ -1,17 +1,19 @@
 .menu {
     width: 414px;
-    height: 1026px;
+    height: 934px;
     background-color: #E5E5E5;
 }
 
 .cabecalho {
     width: 414px;
     height: 92px;
-    background-color: red;
+    background-color: #CF2B2B;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-}
+    top: 0px;
+    position: fixed;
+} 
 
 .roboto {
     font-family: 'Roboto', sans-serif;
@@ -42,12 +44,11 @@ h2 {
 .pedidos {
     height: 258px;
     width: 395px;
-    /* background-color: red; */
     margin-left:19px;
 }
 
 .comida {
-    margin-top: 31px;
+    margin-top: 92px;
 }
 
 .comida h1 {
@@ -71,7 +72,7 @@ h2 {
 }
 
 .sobremesa {
-    margin: 27px 0px 16px 19px;
+    margin: 27px 0px 92px 19px;
 }
 
 .sobremesa h1 {
@@ -86,7 +87,6 @@ h2 {
     width: 548px;
     height: 216px;
     margin-top: 17px;
-    /* background-color: blue; */
     display: flex;
     justify-content: space-between;
 }
@@ -130,5 +130,32 @@ h5 {
     font-size: 16px;
     font-weight: 400;
     margin: 0px 92px 13px 14px;
-    color: 
+    color: #000000}
+
+.barrabaixo {
+    width: 414px;
+    height: 92px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0px;
+    position: fixed;
+}
+
+button {
+    background-color: #CBCBCB;
+    width: 364px;
+    height: 61px;
+    border-radius: 50px;
+    border: 0px solid #CBCBCB;
+}
+
+.barrabaixo p{
+    width: 364px;
+    height: 53px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 8px 0px 0px 0px;
 }
